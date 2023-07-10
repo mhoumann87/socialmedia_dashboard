@@ -1,7 +1,9 @@
 design/
 images/
 fm-readme.md
-style-guide.md# Logs
+style-guide.md
+
+# Logs
 logs
 *.log
 npm-debug.log*
