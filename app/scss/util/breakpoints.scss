@@ -1,16 +1,16 @@
 // mixins for the different screen sizes
-// 640px, 1024px, 1400px
+// 640px, 950px, 1440px
 $breakpoints-up: (
   'medium': '40em',
-  'large': '64em',
-  'xlarge': '87.5em',
+  'large': '59,375em',
+  'xlarge': '90em',
 );
 
-// 639ps,1023px, 1399px
+// 639ps,949px, 1439px
 $breakpoints-down: (
   'medium': '39.9375em',
-  'large': '63.9375em',
-  'xlarge': '87.4375em',
+  'large': '59.3125em',
+  'xlarge': '89.9375em',
 );
 
 @mixin breakpoint($size) {
