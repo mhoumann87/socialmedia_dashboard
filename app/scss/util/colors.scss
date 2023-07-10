@@ -1,0 +1,44 @@
+:root {
+  /* Primary */
+
+  --lime-green: hsl(163, 72%, 41%);
+  --bright-red: hsl(356, 69%, 56%);
+
+  /* social media */
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram-yellow: hsl(37, 97%, 70%);
+  --instagram-pink: hsl(329, 70%, 58%);
+  --instagram: linear-gradient(var(--instagram-yellow), var(--instagram-pink));
+  --youTube: hsl(348, 97%, 39%);
+
+  /* toggle button */
+
+  /* dark */
+  --toggle-blue: hsl(210, 78%, 56%);
+  --toggle-green: hsl(146, 68%, 55%);
+
+  --toggle-button-dark: linear-gradient(
+    var(--toggle-blue),
+    var(--toggle-green)
+  );
+
+  /* light */
+  --toggle-button-light: hsl(230, 22%, 74%);
+
+  /* base colors */
+
+  /* dark theme */
+  --clr-dark-background: hsl(230, 17%, 14%);
+  --clr-dark-pattern: hsl(232, 19%, 15%);
+  --clr-dark-card-bg: hsl(228, 28%, 20%);
+  --clr-dark-blue-text: hsl(228, 34%, 66%);
+  --clr-dark-text: hsl(0, 0%, 100%);
+
+  /* light theme */
+  --clr-light-background: hsl(0, 0%, 100%);
+  --clr-light-pattern: hsl(225, 100%, 98%);
+  --clr-light-card-bg: hsl(227, 47%, 96%);
+  --clr-light-blue-text: hsl(228, 12%, 44%);
+  --clr-light-text: hsl(230, 17%, 14%);
+}
