@@ -1,0 +1,23 @@
+@use '../util/' as *;
+
+.header {
+  padding-block: rem(18);
+
+  @include breakpoint(medium) {
+    display: flex;
+    flex-direction: colum;
+    gap: 0.5rem;
+  }
+
+  &__title {
+    h1 {
+      margin: 0;
+      padding-block-end: rem(10);
+      font-size: rem(24);
+
+      @include breakpoint(large) {
+        font-size: rem(28);
+      }
+    }
+  }
+}

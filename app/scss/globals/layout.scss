@@ -1,0 +1,13 @@
+@use '../util/' as *;
+
+.wrapper {
+  width: calc(100% - 2rem);
+  max-width: rem(1110);
+  margin-inline: auto;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}

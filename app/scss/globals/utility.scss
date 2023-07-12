@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  gap: var(--grid-gap, 1rem);
+}
+
+.flex {
+  display: flex;
+  flex-direction: var(--flex-dir, row);
+  justify-content: var(--flex-just, space-between);
+  align-items: var(--flex-align, center);
+  gap: var(--flex-gap, 1rem);
+}

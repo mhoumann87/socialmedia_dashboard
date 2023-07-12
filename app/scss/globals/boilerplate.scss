@@ -27,3 +27,13 @@ svg {
   height: auto;
   display: block;
 }
+
+.sr-only {
+  position: absolute;
+  display: none;
+  width: 1px;
+  height: 1px;
+  top: -1000px;
+  left: -1000px;
+  overflow: hidden;
+}
