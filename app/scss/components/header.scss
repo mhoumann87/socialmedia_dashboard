@@ -9,16 +9,4 @@
     --flex-dir: row;
     --flex-gap: 0em;
   }
-
-  &__title {
-    h1 {
-      margin: 0;
-      padding-block-end: rem(10);
-      font-size: rem(24);
-
-      @include breakpoint(large) {
-        font-size: rem(28);
-      }
-    }
-  }
 }
