@@ -2,7 +2,7 @@
 @use '../globals/' as *;
 
 .header {
-  padding-block: rem(18);
+  margin-block-start: rem(36);
   --flex-dir: column;
   --flex-gap: 0.5rem;
 
