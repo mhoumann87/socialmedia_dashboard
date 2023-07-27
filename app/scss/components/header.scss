@@ -1,4 +1,5 @@
 @use '../util/' as *;
+@use '../globals/' as *;
 
 .header {
   padding-block: rem(18);
@@ -8,5 +9,19 @@
   @include breakpoint(medium) {
     --flex-dir: row;
     --flex-gap: 0em;
+  }
+
+  &__title {
+    width: 100%;
+
+    @include breakpoint(medium) {
+      width: auto;
+    }
+  }
+
+  &__subtitle {
+    font-size: rem(14);
+    font-weight: var(--fw-bold);
+    color: var(--clr-light-blue-text);
   }
 }
