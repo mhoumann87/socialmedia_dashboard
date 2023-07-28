@@ -19,8 +19,9 @@
   --toggle-green: hsl(146, 68%, 55%);
 
   --toggle-button-dark: linear-gradient(
-    var(--toggle-blue),
-    var(--toggle-green)
+    225deg,
+    var(--toggle-green),
+    var(--toggle-blue)
   );
 
   /* light */
